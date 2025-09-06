@@ -97,7 +97,7 @@ HTML要素でいうとinput、select、textarea,buttonなどのことです。
 
 <figcaption>ラベルをつけて改善</figcaption>
 <figure>
-  <img src="./image/select-after.webp" style="width: 90%;" alt="文書配付のスクリーンショット。Selectにはラベルがついている。">
+  <img src="./image/select-after.webp" alt="文書配付のスクリーンショット。Selectにはラベルがついている。">
 </figure>
 <!--
 こういったSelect、SmartHRでもどんどん改善してまして、
@@ -218,7 +218,7 @@ inputを分割しなければ、このような悩みは発生しないのです
 
 ## 悩んだやつ3: 条件の入力（条件文）
 
-<img src="./image/splitinput3.png" alt="条件1という項目に3つの入力欄がある。入力はすべてコンボボックスで、2つ目と3つ目の入力の間に「の経験が」というテキストがある">
+<img src="./image/splitinput3.png" alt="条件1という項目に3つの入力欄がある。入力はすべてコンボボックスで、2つ目と3つ目の入力の間に「の経験が」というテキストがある" width="48%">
 
 - 条件の大分類を選んだあと、小分類の項目と、その有無を選択させるUI
 - 1つ目と2つ目は[Combobox | コンポーネント | SmartHR Design System](https://smarthr.design/products/components/combo-box/)で、3つ目はSelectを使用
